@@ -1,0 +1,9 @@
+{
+  "name": "js-pra",
+  "version": "0.0.0",
+  "description": "jsPra",
+  "main": "app.js",
+  "author": {
+    "name": "gf"
+  }
+}
