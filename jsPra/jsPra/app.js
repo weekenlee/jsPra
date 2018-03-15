@@ -38,3 +38,8 @@ function testReplace(text) {
 }
 
 testReplace("cat bat hat")
+function sayhi(){
+    console.log("sayhi outside")
+}
+eval("function sayhi(){console.log('sayhi inside')}")
+sayhi() //严格模式下outside，非严格下inside
