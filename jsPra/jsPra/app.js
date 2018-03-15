@@ -30,3 +30,11 @@ console.log(num.toExponential(1))
 console.log(num.toPrecision(1))
 console.log(num.toPrecision(2))
 console.log(num.toPrecision(3))
+
+function testReplace(text) {
+    return text.replace(/(.at)/g, function(match, pos , originalText) {
+        console.log(match)
+    });
+}
+
+testReplace("cat bat hat")
